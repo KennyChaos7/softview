@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.softview.SoftView
+        android:id="@+id/soft_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/shape_f2f2f4_radius_36"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:soft_text_1="AAAA"
+        app:soft_text_2="BBB"
+        app:left_text_drawable_left="@mipmap/ic_launcher"
+        app:content_background="@drawable/commom_white_radiusmuch_36"
+        app:drawable_padding="8dp"
+        app:text_padding_left="22dp"
+        app:text_padding_right="22dp"
+        app:text_color_selected="#c333333"
+        app:text_color_unselected="#cB0B0B0"
+        app:bolder_size="1dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
