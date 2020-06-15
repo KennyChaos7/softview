@@ -3,16 +3,16 @@
     <declare-styleable name="SoftView">
         <attr name="content_background" format="reference"/>
         <!-- 类型文字 -->
-        <attr name="soft_text_1" format="reference"/>
-        <attr name="soft_text_2" format="reference"/>
+        <attr name="soft_text_1" format="reference|string"/>
+        <attr name="soft_text_2" format="reference|string"/>
         <!-- textView左右间隔 -->
-        <attr name="text_padding_left" format="reference"/>
-        <attr name="text_padding_right" format="reference"/>
+        <attr name="text_padding_left" format="reference|dimension"/>
+        <attr name="text_padding_right" format="reference|dimension"/>
         <!-- 文字颜色 -->
         <attr name="text_color_selected" format="reference"/>
         <attr name="text_color_unselected" format="reference"/>
         <!-- 文字大小 -->
-        <attr name="text_size" format="reference"/>
+        <attr name="text_size" format="reference|integer"/>
         <!-- drawable left -->
         <attr name="left_text_drawable_left" format="reference"/>
         <attr name="right_text_drawable_left" format="reference"/>
@@ -20,8 +20,8 @@
         <attr name="left_text_drawable_right" format="reference"/>
         <attr name="right_text_drawable_right" format="reference"/>
         <!-- drawable padding -->
-        <attr name="drawable_padding" format="reference"/>
+        <attr name="drawable_padding" format="reference|dimension"/>
         <!-- 边界大小 -->
-        <attr name="bolder_size" format="reference"/>
+        <attr name="bolder_size" format="reference|dimension"/>
     </declare-styleable>
 </resources>

@@ -31,8 +31,8 @@
         app:drawable_padding="8dp"
         app:text_padding_left="22dp"
         app:text_padding_right="22dp"
-        app:text_color_selected="#c333333"
-        app:text_color_unselected="#cB0B0B0"
+        app:text_color_selected="@color/colorAccent"
+        app:text_color_unselected="@color/colorPrimary"
         app:bolder_size="1dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
